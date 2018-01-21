@@ -1,0 +1,109 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='Adaptive'
+	Name='LastAdaptive'
+	AdaptivePass=-1
+	EnergyError=1648189047.382068
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=220000000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=4
+				n=4
+				$begin 'r0'
+					c(-0.3313061236738267, -0.5443937462159331)
+					c(0.2921672397040764, -0.03026740601116674)
+					c(0.1052664342648419, -0.2227722521233582)
+					c(0.04630621787315312, -0.1219642183179002)
+				$end 'r0'
+				$begin 'r1'
+					c(0.2921672397041325, -0.03026740601129679)
+					c(0.1007461520864967, -0.6711624028519891)
+					c(0.06472173376028949, -0.116736584121693)
+					c(0.1221737099602952, -0.4037676538000011)
+				$end 'r1'
+				$begin 'r2'
+					c(0.1052664342647966, -0.2227722521236415)
+					c(0.06472173376031282, -0.1167365841217709)
+					c(-0.1765573352285271, 0.8358341554920915)
+					c(-0.03339928831875572, -0.04897973913464147)
+				$end 'r2'
+				$begin 'r3'
+					c(0.04630621787311132, -0.1219642183180178)
+					c(0.1221737099602834, -0.4037676538002291)
+					c(-0.03339928831875427, -0.04897973913463447)
+					c(-0.04671071167591612, 0.807580868871937)
+				$end 'r3'
+			$end 'SMatrix'
+			$begin 'Gamma'
+				n=4
+				$begin 'r0'
+					c(1.983872429914591, 2835.072587260562)
+					c(1.983830465456183, 2835.087697031806)
+					c(7.298286963888857, 2155.245032971397)
+					c(7.298193269756962, 2155.234669954672)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=4
+				$begin 'r0'
+					c(378.0016434070642, 0.2839922768332675)
+					c(378.0216431241435, 0.2840812699538382)
+					c(152.4034616765241, 0.3706132092261425)
+					c(152.3551565630193, 0.3703235131426125)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zpv'
+				n=4
+				$begin 'r0'
+					c(613.0959061427286, 0.3290673010778985)
+					c(613.082522056476, 0.3290171873113287)
+					c(5.840117905660155e-009, -1.769813169168478e-010)
+					c(9.298133155982656e-010, -7.798650944323496e-011)
+				$end 'r0'
+			$end 'Zpv'
+			$begin 'TerminalPMatrix'
+				m=4
+				n=4
+				$begin 'r0'
+					c(1.999999983477133, 0.0007472736505963331)
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999983522085, 0.0007472438895632307)
+					c(0, 0)
+					c(0, 0)
+				$end 'r1'
+				$begin 'r2'
+					c(0, 0)
+					c(0, 0)
+					c(1.999995331584941, 0.004387202425662031)
+					c(0, 0)
+				$end 'r2'
+				$begin 'r3'
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+					c(1.999995331777236, 0.004387147095437316)
+				$end 'r3'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='1', TerminalEntryName='1', PortName='1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='2', TerminalEntryName='2', PortName='2', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+		Port(ModalEntryName='3', TerminalEntryName='3', PortName='3', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=2)
+		Port(ModalEntryName='4', TerminalEntryName='4', PortName='4', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=3)
+	$end 'Ports'
+	HigherOrderMode=false
+	PortNames('1', '2', '3', '4')
+	PortModes(1, 1, 1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	IeEnergyError=0
+	PreferredImpedance='Zpi'
+$end 'soln'

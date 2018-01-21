@@ -1,0 +1,14 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=1
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1:1,1:1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+$end 'SimValueCache'
