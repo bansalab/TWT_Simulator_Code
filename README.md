@@ -16,3 +16,5 @@ Important Details:
 * NS and ND can be increased for a more accurate prediction, but this will increase the simulation time period.
 * The code doesn't take magnetic fields into consideration.
 * It is fully dependent on different Electric Fields present within the tube.
+
+The code has been tested along with an HFSS Simulation. The HFSS designs are also available.
